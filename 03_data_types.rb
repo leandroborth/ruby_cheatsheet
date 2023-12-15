@@ -1,10 +1,12 @@
-integer = -5
-float = 5.5
-string1 = 'Hello World'
-string2 = "Hello World"
-symbol = :hello_world
-boolean1 = true
-boolean2 = false
+i = -5 # integer
+f = 5.5 # float
+s = 'Hello World' # string
+s = "Hello World" # string
+CON = 3.14 # constant
+:hello_world # symbol
+b = true # boolean
+b = false # boolean
+nil # null
 
 # Array (is a collection)
 array = [6, 1, 3, 4, 5, 2]

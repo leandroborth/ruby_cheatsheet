@@ -1,23 +1,6 @@
 # Random number
 random_number = rand(1..100)
 
-# Available operator
-
-# + (addition)
-# - (subtraction)
-# * (multiplication)
-# / (division)
-# % (finding remainder of division operation)
-# < (less than)
-# <= (less than or equal to)
-# > (greater than)
-# >= (greater than or equal to)
-# == (is equal to, checks whether numbers are equal)
-# ** (power operation, degree of a number)
-
-puts 3 / 2    # 1 (integers with integer result integer)
-puts 3 / 2.0  # 1.5 (float with integer result float)
-
 # Both of the values are integer.
 puts 7/2  # Output is 3. You might have expected 3.5
 # Only one of the values is an integer.

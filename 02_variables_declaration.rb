@@ -1,3 +1,9 @@
+just_variable = 'Just a variable'
+@instance_variable = 'Instance variable'
+@@class_variable = 'Class variable'
+$global_variable = 'Global variable'
+CONSTANT = 'Constant'
+
 # String
 full_name = 'Mike Taylor'
 
@@ -12,7 +18,7 @@ active? = true
 admin_user? = false
 
 # Array
-fruits = ['Appel', 'Orange', 'Banana']
+fruits = ['Apple', 'Orange', 'Banana']
 
 # Hash
 fruit_color = { apple: 'red' }
@@ -37,3 +43,8 @@ search ||= params[:search]
 
 # Safe navigation operator &. (skip if nil)
 name = customer&.first_name
+
+a,b = [1,3] # unpack
+a,b = [1, 2, 3, 4] # a = 1, b = 2, 3 and 4 are ignored
+a,b,*c = [1, 2, 3, 4] # a = 1, b = 2, c = [3, 4]
+a,b = b,a # swap
