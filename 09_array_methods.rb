@@ -5,6 +5,7 @@ fruits.include? 'Orange'  # true
 fruits.push 'Strawberry' # append at the end
 fruits <<  'Raspberry' # append at the end
 fruits.unshift 'Strawberry' # Append in front
+fruits.insert(1, 'Pineapple') # Insert at index 1
 
 fruits.pop # remove last
 fruits.delete_at(0) # remove first element
